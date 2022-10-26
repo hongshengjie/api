@@ -17,6 +17,7 @@ service Greeter {
 message HelloRequest {
   string name = 1;
   int64 id = 2;
+  int64 sex = 3;
 }
 
 // The response message containing the greetings
